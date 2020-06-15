@@ -1,0 +1,11 @@
+.coverBook{
+    width: 400px;
+    height: 600px;
+    border: solid 2px purple;
+}
+
+#headerTitle >sup{
+    margin: 0 auto;
+    text-align: center;
+    
+}
