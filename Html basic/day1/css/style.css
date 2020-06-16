@@ -1,11 +1,89 @@
+.container{
+    height: 700px;
+    width: 600px;
+    border: red 1px solid;
+    padding-top: 50px;
+}
 .coverBook{
     width: 400px;
     height: 600px;
     border: solid 2px purple;
+    margin: 0 auto;
 }
 
-#headerTitle >sup{
-    margin: 0 auto;
+#coverHeader{
+    border: solid 1px green;
+    background: #012839;
+}
+#headerTitle {
     text-align: center;
-    
+    color: #C59D34;
+}
+#mainCover{
+    background: #D91822;
+    height: 300px;
+    border-bottom: green;
+}
+#textMain{
+    color: white;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-left: 30px;
+    line-height: initial;
+}
+.coverFooter{
+    background: #012839;
+    border: solid 1px green;
+    height: 227px;
+}
+
+#textMainFooter{
+    color: #C59D34;
+    font-size: 30px;
+    padding-left: 30px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+#textSubFooter{
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#textEdition{
+    background-color: #D91822;
+    color: white;
+    font-weight: bold;
+    float: right;
+    width: 130px;
+    height: 26px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+.publish{
+    height: 98px;
+    width: 150px;
+}
+.imgPlsh >img{
+    width: 15px;
+    height: 15px;
+    margin-top: 70px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.textPlsh > p{
+    color: white;
+    font-size: 5px;
+    margin-left: 50px;
+    display: inline - block;
+    margin-top:1000px
+    text-transform: uppercase;
 }
